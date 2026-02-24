@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-file_path = 'E:/Graduation project/QGIS-relat/Kowloon_TSX_LOS_tem/InSAR_Project/data/Building_Data_1.xlsx'
+file_path = 'data/Building_Data_1.xlsx'
 df = pd.read_excel(file_path)
 print(df.columns)
 #点密度
@@ -26,7 +26,10 @@ plt.ylabel('p_density')
 plt.show()
 
 # ==========================================
-# Level 4: 建筑类型处理与箱线图
-# ==========================================
+# 建筑类型处理与箱线图
+
 print('建筑类型统计')
 print(df_clean['building'].value_counts())
+
+plt.savefig('output/H vs P_Density.png', dpi=300, bbox_inches='tight')
+print("图片已保存->output")
