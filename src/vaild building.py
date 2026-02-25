@@ -23,7 +23,7 @@ sns.regplot(data=df_clean, x='height_max', y='Density')
 plt.title('Height vs Point_Density')
 plt.xlabel('h_max')
 plt.ylabel('p_density')
-plt.show()
+#plt.show()
 
 # ==========================================
 # 建筑类型处理与箱线图
@@ -33,3 +33,13 @@ print(df_clean['building'].value_counts())
 
 plt.savefig('output/H vs P_Density.png', dpi=300, bbox_inches='tight')
 print("图片已保存->output")
+
+
+plt.figure(figsize=(10, 6))
+#箱线图
+sns.boxplot(data=df_clean, x="building", y="Density", hue="building", palette="Set2")
+plt.title("建筑类型点云密度分布")
+plt.xlabel("Building Type")
+plt.ylabel('Point Density')
+plt.savefig('output/Density_by_Building_Type.png', dpi=300, bbox_inches='tight')
+print(" 第二张图：箱线图已保存-> output 文件夹")
