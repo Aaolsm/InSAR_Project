@@ -3,5 +3,7 @@
 __pycache__/
 
 # 忽略数据和输出文件（只传代码，不传数据）
-data/
+#data/
 output/
+
+.vscode/

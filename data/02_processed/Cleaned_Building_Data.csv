@@ -1,0 +1,5 @@
+﻿fid,full_id,osm_id,osm_type,unisex,taxon:subphylum,building:levels,taxon:wikidata,taxon:parvorder,taxon,attraction,animal,tourism,leisure,access,was:name:zh,was:name:en,was:name,usage,railway,platforms,operator,network,amenity,shop,station,public_transport,nohousenumber,name:zh,name:en,name,layer,gondola,building,NUMPOINTS,Area_sqm,height_max,height_mean,Density
+1,w301326724,301326724,way,,,,Q144144,Odontoceti,Odontoceti,animal,dolphin,,,,,,,,,,,,,,,,,海洋哺乳動物繁殖及研究中心,Marine Mammal Breeding and Research Centre,海洋哺乳動物繁殖及研究中心 Marine Mammal Breeding and Research Centre,,,sports_hall,27,2647.357761155814,87.05,84.584815,0.010198848223751984
+2,w92241279,92241279,way,,,,,,,,,,,,,,,tourism,station,2.0,Ocean Park,海洋列車 Ocean Express,,,,,,高峰,Summit,高峰 Summit,,,yes,22,3070.659626540728,140.12,131.388182,0.007164584381103889
+3,w92241273,92241273,way,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,27,521.4785763984546,130.22,122.735185,0.05177585661614922
+4,w226529373,226529373,way,,,,,,,,,aquarium,,,,,,,,,,,,,,,,,,,,,yes,93,5569.251241029997,153.0,144.244946,0.016698833644789968
